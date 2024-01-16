@@ -67,7 +67,7 @@ header .logo-a {
 header .nav-icon {
   display: none;
 }
-/* part-2 start */
+/* explore */
 .part-2 {
   width: 1140px;
   height: 450px;
@@ -142,8 +142,54 @@ header .nav-icon {
   font-size: 16px;
   font-weight: 700;
 }
+/* Our Popular Tours*/
+
+.part-3 {
+  display: flex;
+  max-width: 1140px;
+  margin: auto;
+  gap: 100px;
+}
+.part-3 .part-3-text .part-3-h1 {
+  color: #131318;
+  font-size: 35px;
+  font-weight: 800;
+}
+.part-3 .part-3-img img {
+  width: 100%;
+  height: 100%;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  border-radius: 15px;
+}
+.part-3 .part-3-text .part-3-p {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.part-3 .part-3-text .part-3-ul .part-3-li {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-left: 30px;
+}
+.part-3 .part-3-text .part-3-btn {
+  width: 174px;
+  height: 52px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+  border-radius: 8px;
+  background: #ff5400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin-top: 20px;
+}
 /* header start */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
   .main {
     max-width: 480px;
   }
@@ -200,5 +246,24 @@ header .nav-icon {
   }
   .part-2 .part-2-btn {
     width: 400px;
+  }
+  /* Our Popular Tours*/
+  .part-3 {
+    flex-direction: column;
+    max-width: 480px;
+    margin: 0 auto;
+    margin-top: -50px;
+  }
+  .part-3 .part-3-text .part-3-h1 {
+    font-size: 25px;
+  }
+  .part-3 .part-3-text .part-3-p {
+    font-size: 14px;
+  }
+  .part-3 .part-3-text .part-3-ul .part-3-li {
+    font-size: 14px;
+  }
+  .part-3 .part-3-img img {
+    margin-top: -70px;
   }
 }
