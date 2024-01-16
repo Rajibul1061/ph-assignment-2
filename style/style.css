@@ -436,7 +436,6 @@ header .nav-icon {
   border-radius: 16px;
   background: #ff5400;
   padding: 16px;
-  /* width: fit-content; */
   color: #fff;
   text-align: center;
   bottom: 13%;
@@ -539,8 +538,9 @@ footer .copyright {
     align-items: center;
   }
   .part-2 .part-2-h1 {
-    font-size: 22px;
+    font-size: 20px;
     padding-top: 15px;
+    margin: 10px;
   }
   .part-2 .part-2-p {
     font-size: 14px;
@@ -561,16 +561,29 @@ footer .copyright {
     margin-top: -50px;
   }
   .part-3 .part-3-text .part-3-h1 {
-    font-size: 25px;
+    font-size: 24px;
+    width: 250px;
+    margin-left: 20px;
   }
   .part-3 .part-3-text .part-3-p {
+    width: 420px;
     font-size: 14px;
+    margin-left: 20px;
+
+    margin-left: 20px;
   }
   .part-3 .part-3-text .part-3-ul .part-3-li {
+    width: 420px;
     font-size: 14px;
+    margin-left: 20px;
   }
   .part-3 .part-3-img img {
     margin-top: -70px;
+  }
+  .search .part-2-btn {
+    width: 174px;
+    height: 52px;
+    margin-left: 20px;
   }
 
   /* Responsive Choose Your Destination part 4 */
@@ -592,21 +605,21 @@ footer .copyright {
     flex-direction: column;
   }
   .part-4 .part-4-flex-1 a .flex-img-1 {
-    width: 450px;
+    width: 335px;
     height: 176px;
     background-position: center;
     margin: 0 auto;
   }
 
   .part-4 .part-4-flex-1 a .flex-img-2 {
-    width: 450px;
+    width: 335px;
     height: 176px;
     background-position: center;
     margin: 0 auto;
   }
 
   .part-4 .part-4-flex-2 a .flex-img-3 {
-    width: 400px;
+    width: 335px;
     height: 176px;
     background-image: url("img/Rectangle\ 13.png");
     background-position: center;
@@ -615,13 +628,13 @@ footer .copyright {
     display: none;
   }
   .part-4 .part-4-flex-2 a .flex-img-4 {
-    width: 450px;
+    width: 335px;
     height: 176px;
     background-position: center;
     margin: 0 auto;
   }
   .part-4 .part-4-flex-2 a .flex-img-5 {
-    width: 450px;
+    width: 335px;
     height: 176px;
     background-position: center;
     background-image: url("img/Rectangle\ 12.png");
@@ -629,14 +642,14 @@ footer .copyright {
     display: none;
   }
   .part-4 .part-4-flex-3 a .flex-img-6 {
-    width: 450px;
+    width: 335px;
     height: 176px;
     background-position: center;
     margin: 0 auto;
     border-radius: 16px;
   }
   .part-4 .part-4-flex-3 a .flex-img-7 {
-    width: 450px;
+    width: 335px;
     height: 176px;
     background-position: center;
     margin: 0 auto;
@@ -644,7 +657,31 @@ footer .copyright {
   .part-4 a .part-4-h2 {
     padding-top: 70px;
   }
+  /* .testimonial-content */
 
+  .testimonial-content p {
+    width: 309px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .tm-container:first-child {
+    width: 335px;
+    height: 289px;
+  }
+  .tm-container:nth-child(2) {
+    width: 335px;
+    height: 289px;
+  }
+  .tm-container:nth-child(3) {
+    width: 335px;
+    height: 289px;
+  }
+  .tm-container p {
+    font-size: 12px;
+    width: 271px;
+    line-height: 20px;
+  }
   /* Responsive newsletter */
   .newsletter-container {
     width: 0;
@@ -666,6 +703,14 @@ footer .copyright {
   .newsletter-container .image img {
     width: 100%;
   }
+  .btn-primary {
+    width: 100%;
+  }
+  .discount-card {
+    width: 214.023px;
+    height: 79.268px;
+    font-size: 15px;
+    bottom: 16%;
+  }
 }
-
 /* Responsive Mobile Mood */
