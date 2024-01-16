@@ -605,6 +605,13 @@ footer .copyright {
     max-width: 480px;
     margin: 0 auto;
   }
+  .part-4 .part-4-h1 {
+    text-align: center;
+    font-family: Mulish;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+  }
   .part-4 .part-4-flex-1 {
     display: flex;
     flex-direction: column;
@@ -673,12 +680,26 @@ footer .copyright {
   /* Responsive Choose Your Destination part 4 End */
 
   /* Testimonial Part 5 */
-
+  .testimonial-content h1 {
+    text-align: center;
+    font-family: Mulish;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .tm-container h2 {
+    font-size: 20px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 800;
+  }
   .testimonial-content p {
     width: 309px;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
+    text-align: center;
   }
   .tm-container:first-child {
     width: 335px;
@@ -696,6 +717,7 @@ footer .copyright {
     font-size: 12px;
     width: 271px;
     line-height: 20px;
+    text-align: center;
   }
   /* Testimonial Part 5 End */
 
