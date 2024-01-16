@@ -67,3 +67,138 @@ header .logo-a {
 header .nav-icon {
   display: none;
 }
+/* part-2 start */
+.part-2 {
+  width: 1140px;
+  height: 450px;
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url(../Images/heroimage.png);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  margin-top: 60px;
+  border-radius: 16px;
+}
+.part-2 {
+  justify-content: center;
+  text-align: center;
+}
+.part-2 .part-2-h1 {
+  color: #fff;
+  font-size: 55px;
+  font-weight: 800;
+  padding-top: 100px;
+}
+.part-2 .part-2-p {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.part-2 .search {
+  display: flex;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  width: 800px;
+  margin: 0 auto;
+  padding: 15px;
+  gap: 24px;
+}
+.part-2 .part-2-input {
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background: #fff;
+  border: none;
+}
+.part-2 .part-2-input::placeholder {
+  color: rgba(19, 19, 24, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+}
+.part-2 .part-2-input:focus {
+  outline: none;
+}
+.part-2 .part-2-input:read-write {
+  padding: 20px;
+}
+.search .part-2-btn {
+  display: flex;
+  text-decoration: none;
+  gap: 10px;
+  width: 174px;
+  height: 52px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+}
+/* header start */
+@media screen and (max-width: 576px) {
+  .main {
+    max-width: 480px;
+  }
+  .main header {
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 50px 0;
+  }
+  .main header nav {
+    display: none;
+  }
+  header .nav-icon {
+    display: block;
+    font-size: 30px;
+    color: #131318;
+  }
+  .main .header-logo {
+    gap: 20px;
+  }
+  .main .header-logo .logo-text .logo-h1 {
+    font-size: 30px;
+  }
+  .main .header-logo .logo-text .logo-h1 .logo-span {
+    font-size: 30px;
+  }
+  .main .header-logo .logo .logo-img {
+    height: 100%;
+    width: 100%;
+    margin-top: -5px;
+  }
+
+  /* explore*/
+  .part-2 {
+    height: 483px;
+    max-width: 480px;
+    margin-top: -25px;
+  }
+  .part-2 .search {
+    flex-direction: column;
+    width: 430px;
+    align-items: center;
+  }
+  .part-2 .part-2-h1 {
+    font-size: 22px;
+    padding-top: 15px;
+  }
+  .part-2 .part-2-p {
+    font-size: 14px;
+    width: 400px;
+    margin-left: 45px;
+  }
+  .part-2 .part-2-input {
+    width: 400px;
+  }
+  .part-2 .part-2-btn {
+    width: 400px;
+  }
+}
