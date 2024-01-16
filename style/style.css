@@ -490,7 +490,10 @@ footer .copyright {
   padding: 20px 0;
   color: #131318;
 }
-/* header start */
+
+/* Responsive Mobile Mood */
+
+/* Responsive header */
 @media screen and (max-width: 600px) {
   .main {
     max-width: 480px;
@@ -523,7 +526,7 @@ footer .copyright {
     margin-top: -5px;
   }
 
-  /* explore part 2*/
+  /*  Responsive Explore part 2*/
   .part-2 {
     height: 483px;
     max-width: 480px;
@@ -549,7 +552,7 @@ footer .copyright {
   .part-2 .part-2-btn {
     width: 400px;
   }
-  /* Our Popular Tours part 3*/
+  /* Responsive Our Popular Tours part 3*/
   .part-3 {
     flex-direction: column;
     max-width: 480px;
@@ -569,7 +572,7 @@ footer .copyright {
     margin-top: -70px;
   }
 
-  /* Choose Your Destination part 4 */
+  /* Responsive Choose Your Destination part 4 */
 
   .part-4 {
     max-width: 480px;
@@ -640,6 +643,8 @@ footer .copyright {
   .part-4 a .part-4-h2 {
     padding-top: 70px;
   }
+
+  /* Responsive newsletter */
   .newsletter-container {
     width: 0;
     flex-direction: column;
@@ -661,3 +666,5 @@ footer .copyright {
     width: 100%;
   }
 }
+
+/* Responsive Mobile Mood */
