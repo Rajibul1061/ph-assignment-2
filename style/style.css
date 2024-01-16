@@ -11,7 +11,7 @@
   max-width: 1140px;
   margin: 0 auto;
 }
-/* header part start */
+/* header part  */
 header {
   display: flex;
   justify-content: space-between;
@@ -67,7 +67,9 @@ header .logo-a {
 header .nav-icon {
   display: none;
 }
-/* explore */
+/* header part End  */
+
+/* Explore Part 2  */
 .part-2 {
   width: 1140px;
   height: 450px;
@@ -142,7 +144,9 @@ header .nav-icon {
   font-size: 16px;
   font-weight: 700;
 }
-/* Our Popular Tours*/
+/* Explore Part 2 end */
+
+/* Our Popular Tours Part 3*/
 
 .part-3 {
   display: flex;
@@ -188,8 +192,9 @@ header .nav-icon {
   text-decoration: none;
   margin-top: 20px;
 }
+/* Our Popular Tours Part 3 End*/
 
-/* Choose Your Destination*/
+/* Choose Your Destination Part 4*/
 
 .part-4 {
   max-width: 1140px;
@@ -287,8 +292,9 @@ header .nav-icon {
 .part-4 a {
   text-decoration: none;
 }
+/* Choose Your Destination Part 4 End*/
 
-/* testimonial section part 4 */
+/* testimonial section part 5 */
 
 .testimonial-content {
   margin-top: 50px;
@@ -356,6 +362,7 @@ header .nav-icon {
   color: #5a5a5d;
   line-height: 26px;
 }
+/* testimonial section part 5  End*/
 
 /* newsletter section part 6 */
 .newsletter-container {
@@ -441,8 +448,9 @@ header .nav-icon {
   bottom: 13%;
   right: 2%;
 }
+/* newsletter section part 6 End */
 
-/* Footer section */
+/* Footer section part 7 */
 
 footer {
   display: flex;
@@ -490,6 +498,7 @@ footer .copyright {
   padding: 20px 0;
   color: #131318;
 }
+/* Footer section part 7 End */
 
 /* Responsive Mobile Mood */
 
@@ -525,6 +534,7 @@ footer .copyright {
     width: 100%;
     margin-top: -5px;
   }
+  /* Responsive header part End */
 
   /*  Responsive Explore part 2*/
   .part-2 {
@@ -553,6 +563,8 @@ footer .copyright {
   .part-2 .part-2-btn {
     width: 400px;
   }
+  /*  Responsive Explore part 2 End*/
+
   /* Responsive Our Popular Tours part 3*/
   .part-3 {
     flex-direction: column;
@@ -585,6 +597,7 @@ footer .copyright {
     height: 52px;
     margin-left: 20px;
   }
+  /* Responsive Our Popular Tours part 3 End*/
 
   /* Responsive Choose Your Destination part 4 */
 
@@ -657,7 +670,9 @@ footer .copyright {
   .part-4 a .part-4-h2 {
     padding-top: 70px;
   }
-  /* .testimonial-content */
+  /* Responsive Choose Your Destination part 4 End */
+
+  /* Testimonial Part 5 */
 
   .testimonial-content p {
     width: 309px;
@@ -682,6 +697,8 @@ footer .copyright {
     width: 271px;
     line-height: 20px;
   }
+  /* Testimonial Part 5 End */
+
   /* Responsive newsletter */
   .newsletter-container {
     width: 0;
@@ -713,4 +730,5 @@ footer .copyright {
     bottom: 16%;
   }
 }
-/* Responsive Mobile Mood */
+
+/* Responsive newsletter */
